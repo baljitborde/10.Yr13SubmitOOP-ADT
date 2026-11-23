@@ -1,0 +1,187 @@
+<!-- Canvas: paste everything below into the HTML Editor of the assignment description -->
+<div style="font-family: Lato, Arial, sans-serif; font-size: 12pt; color: #333333; line-height: 1.6;">
+<table style="width: 100%; max-width: 1300px; border-collapse: collapse; border: none;">
+<tbody>
+<tr>
+<!-- ============ LEFT COLUMN: MEMORY SCAFFOLD ============ -->
+<td style="width: 280px; vertical-align: top; padding-right: 20px; border: none;">
+<div style="background-color: #f5f9fb; border: 1px solid #cfe3ec; border-radius: 8px; padding: 14px;">
+<h3 style="color: #007BA6; font-size: 14pt; margin: 0 0 6px 0;">&#129504; Memory Scaffold</h3>
+<p style="font-size: 10.5pt; margin: 0 0 12px 0; color: #333333;">Open a box when you need it. These help you plan your answers. They do not give you the answers.</p>
+<details style="margin-bottom: 10px; border: 1px solid #cfe3ec; border-radius: 6px; background-color: #ffffff; padding: 8px 10px;">
+<summary style="cursor: pointer; font-weight: bold; color: #007BA6;">&#9201; Time plan (30 mins)</summary>
+<ul style="font-size: 10.5pt; padding-left: 18px; margin: 8px 0 0 0;"><li><strong>2 mins:</strong> read the Bike and Station code</li><li><strong>Section A:</strong> about 14 mins (15 marks)</li><li><strong>Section B:</strong> about 13 mins (15 marks)</li><li><strong>1 min:</strong> check your answers</li></ul><p style="font-size: 10.5pt; margin: 6px 0 0 0;">Aim for <strong>about 1 minute per mark</strong>. Code questions take longer, so start Section A promptly.</p>
+</details>
+
+<details style="margin-bottom: 10px; border: 1px solid #cfe3ec; border-radius: 6px; background-color: #ffffff; padding: 8px 10px;">
+<summary style="cursor: pointer; font-weight: bold; color: #007BA6;">&#128269; Command words</summary>
+<ul style="font-size: 10.5pt; padding-left: 18px; margin: 8px 0 0 0;"><li><strong style="color: #C62828;">State</strong>: give a short answer. No reason needed.</li><li><strong style="color: #C62828;">Write</strong>: give working Python code.</li><li><strong style="color: #C62828;">Explain</strong>: say <em>what</em> and <em>why</em>, using the class names from the question.</li><li><strong style="color: #C62828;">Complete</strong>: fill in the missing values.</li></ul>
+</details>
+
+<details style="margin-bottom: 10px; border: 1px solid #cfe3ec; border-radius: 6px; background-color: #ffffff; padding: 8px 10px;">
+<summary style="cursor: pointer; font-weight: bold; color: #007BA6;">&#128187; Writing a method</summary>
+<ul style="font-size: 10.5pt; padding-left: 18px; margin: 8px 0 0 0;"><li>Every method header starts with <strong>def</strong> and has <strong>self</strong> as its first parameter.</li><li>Inside a class, attributes are written with <strong>self.</strong> in front.</li><li>Does the method need to <strong>return</strong> a value? Returning is not the same as printing.</li><li>Use the exact class and method names given in the question.</li></ul>
+</details>
+
+<details style="margin-bottom: 10px; border: 1px solid #cfe3ec; border-radius: 6px; background-color: #ffffff; padding: 8px 10px;">
+<summary style="cursor: pointer; font-weight: bold; color: #007BA6;">&#128202; Tracing pointers</summary>
+<ul style="font-size: 10.5pt; padding-left: 18px; margin: 8px 0 0 0;"><li>Write every pointer down (Head, Tail, Free, Root…) before you start.</li><li>Update it line by line, crossing out the old value.</li><li>Remember <strong>-1</strong> means "points to nothing".</li><li>For a circular queue, work out <strong>(pointer + 1) % Size</strong> on paper.</li></ul>
+</details>
+
+<details style="margin-bottom: 10px; border: 1px solid #cfe3ec; border-radius: 6px; background-color: #ffffff; padding: 8px 10px;">
+<summary style="cursor: pointer; font-weight: bold; color: #007BA6;">&#9989; Before you submit</summary>
+<ul style="font-size: 10.5pt; padding-left: 18px; margin: 8px 0 0 0; list-style: none;"><li>&#9744; Every answer is labelled, e.g. <strong>8(b)</strong></li><li>&#9744; Every part has an answer, even a best guess</li><li>&#9744; My Python indentation is clear</li><li>&#9744; My "explain" answers use the scenario</li><li>&#9744; I used no AI tools, IDE or notes</li></ul>
+</details>
+
+</div>
+</td>
+<!-- ============ RIGHT COLUMN: TASK ============ -->
+<td style="vertical-align: top; border: none;">
+
+<h1 style="color: #007BA6; font-size: 22pt; margin: 0 0 4px 0;">Submit Task: Object-Oriented Programming and ADTs</h1>
+<p style="margin: 0 0 16px 0; color: #333333;"><strong>CIE A Level Computer Science 9618</strong> &bull; Paper 4 &bull; Topic 20.1 Programming Paradigms &bull; Year 13 &bull; <strong>30 minutes</strong> &bull; <strong>30 marks</strong></p>
+
+<!-- AI STRAND BANNER: CORE -->
+<div style="border: 2px solid #e65100; background-color: #fff3e0; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+<table style="border-collapse: collapse; border: none; width: 100%;">
+<tbody>
+<tr>
+<td style="width: 90px; vertical-align: middle; border: none; padding-right: 12px;"><img style="width: 80px; height: auto;" src="https://raw.githubusercontent.com/baljitborde/TEST/main/AI%20Badges/core.png" alt="CORE: No AI allowed" /></td>
+<td style="vertical-align: middle; border: none;">
+<h2 style="color: #007BA6; font-size: 16pt; margin: 0 0 4px 0;">AI Strand: CORE (No AI Allowed)</h2>
+<p style="margin: 0; color: #333333;">This task checks what <strong>you</strong> know and can do on your own.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- AI GUIDANCE -->
+<div style="border-left: 5px solid #e65100; background-color: #ffffff; border-top: 1px solid #f3c7a6; border-right: 1px solid #f3c7a6; border-bottom: 1px solid #f3c7a6; padding: 14px 18px; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
+<h3 style="color: #007BA6; font-size: 14pt; margin: 0 0 8px 0;">&#128683; AI Guidance</h3>
+<p style="margin: 0 0 8px 0;">AI tools, including <strong>Google Gemini</strong>, are <strong style="color: #C62828;">strictly prohibited</strong> for this task.</p>
+<p style="margin: 0 0 8px 0; font-weight: bold;">This task assesses your personal knowledge and understanding. Do not use AI to generate, write, or structure your answers.</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>Do not paste any part of this task into an AI tool, a search engine or a Python interpreter or IDE.</li>
+<li>Do not use your pre-learning pages or notes while you answer.</li>
+<li>If you are stuck, write your best attempt. Code that is partly right still earns marks.</li>
+</ul>
+</div>
+
+<!-- HOW TO SUBMIT -->
+<div style="background-color: #e0f2f1; border-radius: 8px; padding: 14px 18px; margin-bottom: 20px;">
+<h3 style="color: #00796B; font-size: 14pt; margin: 0 0 8px 0;">&#128203; How to complete and submit</h3>
+<ol style="margin: 0; padding-left: 20px; color: #00796B;">
+<li>Set a timer for <strong>30 minutes</strong>.</li>
+<li>Write your code by hand or in a plain text editor. Do <strong>not</strong> run it.</li>
+<li>Type your answers in the Canvas text box, <strong>or</strong> upload a document or a clear photo of your work.</li>
+<li>Label every answer with its question number, e.g. <strong>2</strong>, <strong>8(b)</strong>.</li>
+<li>Press <strong>Submit Assignment</strong>.</li>
+</ol>
+</div>
+
+<!-- ============ SECTION A ============ -->
+<h2 style="color: #007BA6; font-size: 16pt; border-bottom: 2px solid #007BA6; padding-bottom: 4px; margin: 0 0 12px 0;">Section A: OOP in a scenario <span style="font-size: 11pt; color: #333333; font-weight: normal;">(15 marks &bull; about 14 minutes)</span></h2>
+<div style="border: 2px dashed #007BA6; background-color: #f0f8ff; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;"><p style="margin: 0;">A city runs a <strong>bike hire</strong> scheme. Each <u>bike</u> has an ID, an <u>hourly rate</u> and whether it is <u>available</u>. An <u>electric bike</u> (e-bike) is a bike that also stores its <u>battery level</u>, and its hourly rate is always <strong>£2.50 more</strong> than the stored rate. Each <u>docking station</u> has a name and holds any number of bikes.</p></div>
+<pre style="background-color: #1e1e2e; color: #cdd6f4; font-family: 'Courier New', Courier, monospace; font-size: 11.5pt; line-height: 1.6; padding: 12px 16px; border-radius: 6px; overflow-x: auto; margin: 0 0 10px 0;">class Bike:
+    def __init__(self, BikeID, Rate):
+        self.__BikeID = BikeID
+        self.__Rate = Rate            # hourly hire rate in £
+        self.__Available = True
+
+    def GetBikeID(self):
+        return self.__BikeID
+
+    def GetRate(self):
+        return self.__Rate
+
+    def IsAvailable(self):
+        return self.__Available
+
+class Station:
+    def __init__(self, Name):
+        self.__Name = Name
+        self.__Bikes = []
+
+    def AddBike(self, NewBike):
+        self.__Bikes.append(NewBike)
+
+# Main program
+B1 = Bike("B01", 4.50)
+Riverside = Station("Riverside")
+Riverside.AddBike(B1)</pre><div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #333333;">1.</strong> <strong style="color: #C62828;">Explain</strong> what is meant by <strong>encapsulation</strong>. Use the Bike class in your answer. <strong>[2]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 6px 0;"><strong>2.</strong> The scheme needs a setter for the hourly rate. A valid rate is from 1.00 to 20.00 inclusive.</p>
+<p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #C62828;">Write</strong> the method <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">SetRate(NewRate)</span> for the Bike class. It stores the new rate and returns True if the rate is valid; otherwise it returns False and the rate is unchanged. <strong>[4]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 6px 0;"><strong>3.</strong> An <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">EBike</span> class is needed. It has an extra private attribute <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">BatteryLevel</span> (an integer passed to the constructor) and a getter <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">GetBatteryLevel()</span>. Its <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">GetRate()</span> method must return the stored rate plus 2.50.</p>
+<p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #C62828;">Write</strong> the EBike class in Python. <strong>[5]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #333333;">4.</strong> <strong style="color: #C62828;">Explain</strong> how the <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">GetRate()</span> method in Bike and EBike demonstrates <strong>polymorphism</strong>. <strong>[2]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 20px;">
+<p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #333333;">5.</strong> <strong style="color: #C62828;">Explain</strong> why the Station class uses <strong>containment</strong> rather than inheritance from Bike. <strong>[2]</strong></p>
+</div>
+
+<!-- ============ SECTION B ============ -->
+<h2 style="color: #007BA6; font-size: 16pt; border-bottom: 2px solid #007BA6; padding-bottom: 4px; margin: 0 0 12px 0;">Section B: ADTs as classes <span style="font-size: 11pt; color: #333333; font-weight: normal;">(15 marks &bull; about 13 minutes)</span></h2>
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 6px 0;"><strong>6.</strong> A web browser stores the pages a user has visited in a stack, using this class.</p>
+<pre style="background-color: #1e1e2e; color: #cdd6f4; font-family: 'Courier New', Courier, monospace; font-size: 11.5pt; line-height: 1.6; padding: 12px 16px; border-radius: 6px; overflow-x: auto; margin: 0 0 10px 0;">class History:
+    def __init__(self, Size):
+        self.__Pages = [""] * Size
+        self.__Size = Size
+        self.__Top = -1             # -1 means the stack is empty</pre><p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #C62828;">Write</strong> a method <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Peek()</span> for the History class. It returns the page at the top of the stack <strong>without removing it</strong>, or returns <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">None</span> if the stack is empty. <strong>[3]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 6px 0;"><strong>7.</strong> A circular queue object is created with <strong>Size 4</strong>. At the start, <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Head = 0</span>, <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Tail = -1</span> and <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">NumberOfItems = 0</span>. <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Enqueue()</span> moves Tail on with <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">(Tail + 1) % Size</span> before storing; <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Dequeue()</span> moves Head on with <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">(Head + 1) % Size</span> after reading. These operations are carried out in order:</p>
+<pre style="background-color: #1e1e2e; color: #cdd6f4; font-family: 'Courier New', Courier, monospace; font-size: 11.5pt; line-height: 1.6; padding: 12px 16px; border-radius: 6px; overflow-x: auto; margin: 0 0 10px 0;">Enqueue("A")   Enqueue("B")   Enqueue("C")   Enqueue("D")
+Dequeue()      Dequeue()      Enqueue("E")</pre><p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #C62828;">Complete</strong> the final values of Head, Tail and NumberOfItems, and <strong style="color: #C62828;">state</strong> the index where "E" is stored. <strong>[3]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 6px 0;"><strong>8.</strong> A LinkedList object contains these Node objects. -1 is the null pointer.</p>
+<table style="border-collapse: collapse; margin: 0 0 10px 0; font-size: 11pt;"><tbody><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">Index</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">Data</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">NextNode</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">0</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">"Oslo"</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">3</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">1</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">"Lima"</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">-1</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">2</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">"Rome"</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">0</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">3</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">"Kyiv"</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">1</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">4</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">""</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">-1</td></tr></tbody></table>
+<p style="margin: 0 0 8px 0;"><span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Head = 2</span> &nbsp; <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Free = 4</span></p>
+<pre style="background-color: #1e1e2e; color: #cdd6f4; font-family: 'Courier New', Courier, monospace; font-size: 11.5pt; line-height: 1.6; padding: 12px 16px; border-radius: 6px; overflow-x: auto; margin: 0 0 10px 0;">def AddToFront(self, NewData):
+    if self.__Free == -1:
+        return False
+    NewIndex = self.__Free
+    self.__Free = self.__Nodes[NewIndex].GetNext()
+    self.__Nodes[NewIndex].SetData(NewData)
+    self.__Nodes[NewIndex].SetNext(self.__Head)
+    self.__Head = NewIndex
+    return True</pre><p style="margin: 0 0 4px 0; color: #00796B;">(a) <strong style="color: #C62828;">State</strong> the output of <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">Traverse()</span>, which follows the pointers from Head. <strong>[1]</strong></p>
+<p style="margin: 0 0 0 0; color: #00796B;">(b) <span style="font-family: 'Courier New', monospace; background-color: #f0f0f0; padding: 1px 5px;">AddToFront("Pune")</span> is then called using this method. <strong style="color: #C62828;">State</strong> the new values of Head, Free and the NextNode of index 4. <strong>[3]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px;">
+<p style="margin: 0 0 6px 0;"><strong>9.</strong> These values are inserted, in this order, into an empty BinaryTree object: <strong>40, 25, 60, 30, 10, 55</strong>. Each new node is stored at the next free index, starting at 0. Smaller values go left; values that are larger or equal go right; -1 means no child.</p>
+<table style="border-collapse: collapse; margin: 0 0 10px 0; font-size: 11pt;"><tbody><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">Index</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">Data</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">Left</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; background-color: #e3f2fd; font-weight: bold;">Right</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">0</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">40</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">1</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">2</td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">1</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;"></td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;"></td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;"></td></tr><tr><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;">2</td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;"></td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;"></td><td style="border: 1px solid #cfd8dc; padding: 5px 10px; text-align: center; font-family: 'Courier New', monospace;"></td></tr></tbody></table>
+<p style="margin: 0 0 4px 0; color: #00796B;">(a) <strong style="color: #C62828;">State</strong> the output of an in-order traversal of the tree. <strong>[1]</strong></p>
+<p style="margin: 0 0 0 0; color: #00796B;">(b) <strong style="color: #C62828;">Complete</strong> the Data, Left and Right values for index 1 and index 2. Index 0 has been done for you. <strong>[2]</strong></p>
+</div>
+
+<div style="background-color: #fafafa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 12px 16px; margin-bottom: 20px;">
+<p style="margin: 0 0 6px 0;"><strong>10.</strong> A café takes customers' orders and must make them in the order they were received.</p>
+<p style="margin: 0 0 0 0; color: #00796B;"><strong style="color: #C62828;">State</strong> the most suitable ADT for storing the orders and <strong style="color: #C62828;">explain</strong> why. <strong>[2]</strong></p>
+</div>
+
+<div style="background-color: #007BA6; color: #ffffff; border-radius: 8px; padding: 14px 18px;">
+<p style="margin: 0; color: #ffffff;"><strong>&#10003; Finished?</strong> Open <strong>Before you submit</strong> in the Memory Scaffold, tick every box, then press <strong>Submit Assignment</strong>.</p>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
